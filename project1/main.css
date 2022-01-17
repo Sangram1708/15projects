@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(35,44,67,0.2),rgba(22, 22, 22, 0.2)), url(4K-Rock-Sea-Horizon-Wallpaper-3840x2160.jpg);
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column ;
+    /* position: relative; */
+}
+h1{
+    font-size: 75px;
+    color: rgb(30, 255, 0);
+}
+.countdownbox{
+    display: flex;
+
+}
+/* #near{
+    color: blue;
+} */
+.cent{
+    text-align: center;
+}
+.cent span{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+.text{
+    font-size: 100px;
+    line-height: 2;
+    margin: 1rem 4rem 0 4rem;
+    color: blanchedalmond;
+   
+}
